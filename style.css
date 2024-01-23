@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    background-color: #fff;
+    width: 350px;
+    height: 480px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 7px 7px 0 ;
+    padding: 20px;
+}
+.card .image{
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card button{
+    border: none;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree" , Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.card .date{
+    font-family: "Figtree" , Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.card .title{
+    font-family: "Figtree" , Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.card p{
+    font-family: "Figtree" , Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+.card .description{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.card .description img{
+    width: 40px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.card .description .profile{
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
